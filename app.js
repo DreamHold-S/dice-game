@@ -52,7 +52,7 @@ document
       onoonuud[idewhteiToglogch] = onoonuud[idewhteiToglogch] + Onoo;
       document.getElementById("score-" + idewhteiToglogch).textContent =
         onoonuud[idewhteiToglogch];
-      if (onoonuud[idewhteiToglogch] > 10) {
+      if (onoonuud[idewhteiToglogch] > 100) {
         document.getElementById("name-" + idewhteiToglogch).textContent =
           "Winner !!!";
         document
